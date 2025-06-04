@@ -12,6 +12,7 @@ main{
 article{
     flex: 2;
     overflow-x: auto;
+    background-color: antiquewhite;
 }
 aside{
     flex: 1;
