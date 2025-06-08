@@ -30,4 +30,3 @@ css_basic/
 
 Made by Kelvin Nungari  
 [Portfolio Link](https://sites.google.com/d/18s29oWLLJEJNc3I3UPpMZg_ITpKkCeU_/p/13yrUKoGJWbnUiAQX4Bqb4dvvKNF8Cym7/edit)
-![redesign of a school page](/alx_html_css/images/School%20Page@2x.png)
