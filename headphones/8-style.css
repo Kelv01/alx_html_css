@@ -1,0 +1,711 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+  font-family: SansPro-Bold;
+  src: url(./Newfonts/sourcesanpro/SourceSansPro-Bold.otf);
+}
+@font-face {
+  font-family: SansProsemi-Bold;
+  src: url(./Newfonts/sourcesanpro/SourceSansPro-Semibold.otf);
+}
+@font-face {
+  font-family: SansPro-regular;
+  src: url(./Newfonts/sourcesanpro/SourceSansPro-Regular.otf);
+}
+
+header{
+    background-image: url(./images/headphones_hero_1.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: auto;
+}
+.header-nav{
+    padding: 12px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2.0rem 0rem 2.0rem;
+    margin: 0 4rem 0 4rem;
+}
+nav img{
+    float: left;
+    height: 2rem;
+    padding-left: 70px;
+    
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li {
+    text-decoration: none;
+    display: flex;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    display: flex;
+    color: #FFFFFF;
+    float: right;
+    padding: 0.8rem;
+    font-family: SansPro-Bold;
+    transition: color 0.3s ease;
+    
+}
+
+.nav-link:hover {
+    color: #FF6565;
+}
+.hamburger-icon,
+.close-icon {
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 1rem;
+  cursor: pointer;
+  float: left;
+}
+.hero{
+    text-align: center;
+    position: absolute;
+    padding-top: 15rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero h1{
+    font-family: SansPro-Bold;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+.hero h4{
+    font-family: SansPro-Bold;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding-bottom: 34px;
+}
+
+.hero button{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 1.5rem;
+    border: none;
+    padding: 0.75rem 2.125rem;
+    font-size: 0.813rem;
+    background: #FF6565;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero p{
+    padding-top: 3.75rem;
+    font-family: SansPro-regular;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+
+
+/*==========about us section==========*/
+.about{
+    text-align: center;
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+}
+.about-us h2{
+    padding: 1rem;
+    font-family: SansPro-Bold;
+    font-size: 2rem;
+}
+.about-us p{
+    font-family: SansPro-regular;
+    font-size: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.our-list{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: auto;
+    padding: 1rem;
+    margin: 0 auto;
+    
+}
+.lst{
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+}
+.lst h3{
+    font-family: SansProsemi-Bold;
+    font-size: 1.125rem;
+    padding: 12px;
+}
+.lst p{
+    font-family: SansPro-regular;
+    padding: 12px;
+    min-width: 200px;
+    line-height: 1.7rem;
+  
+}
+.lst img{
+    padding-bottom: 12px;
+    height: auto;
+}
+.lst img{
+    padding-bottom: 12px;
+    height: auto;
+}
+.lst img.music{
+    padding-top: 20px;
+   
+}
+.lst img.hear{
+    padding-top: 18px;
+   
+}
+.lst img.sound{
+    padding-top: 10px;
+   
+}
+
+
+/*==========results section==========*/
+.result{
+    background-image: url(./images/headphones_hero_2.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: auto;
+    text-align: center;
+    padding: 4rem;
+  
+}
+.rslt-content{
+    padding: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.result h3{
+    font-family: SansProsemi-Bold;
+    font-size: 2rem;
+    padding-top: 9.375rem;
+}
+.result p{
+    font-family: SansPro-regular;
+    padding: 50px;
+}
+.pentagone-item{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.pen-item{ 
+    display: flex;
+    position :relative;
+    color: #FFFFFF;
+    text-align: center;
+    flex-direction: column;
+    width: 190px;
+    height: 190px;
+    background-color: #FF6565; /* The specified background color */
+    position: relative; /* Needed for absolute positioning of content if ever desired, but flex is better here */
+
+    /* CSS for creating the pentagon shape */
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    /* -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); /* For older WebKit browsers */
+
+   
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+.pentagone-item img{
+    height: 150px;
+    
+    
+}
+.rslt-container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    
+}
+.rslt-container h4{
+    
+    font-size: 4rem;
+    font-family: SansProsemi-Bold;
+    white-space: nowrap;
+
+}
+.rslt-container p{
+    font-size: 0.625rem;
+    font-family: SansPro-regular;
+    white-space: nowrap;
+    padding: 0;
+}
+
+
+/*==========contact section==========*/
+.contact{
+    margin-top: 100px;
+    justify-content: center;
+}
+.contact h3{
+    font-family: SansProsemi-Bold;
+    font-size: 32px;
+    text-align: center;
+}
+.contact-container{
+    width: 900px;
+    
+}
+form{
+    align-items: center;
+    padding: 100px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+.control-form{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    margin-bottom: 18px;
+   
+}
+input{
+    height: 45px;
+    font-weight: bold;
+}
+::placeholder{
+    color: #071629;;
+}
+.btn{
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   margin-top: 40px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 1.5rem;
+    border: none;
+    padding: 0.75rem 2.125rem;
+    font-size: 0.813rem;
+    background: #FF6565;
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* ====================Footer Section====================*/
+footer {
+  background-color: #071629;
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+  height: 100px;
+  
+}
+
+.footer-nav p{
+  font-size: 0.75rem;
+  font-family: 'SourceSansPro-Regular';
+  color: rgb(255, 255, 255,0.3);
+  margin-top: 50px;
+}
+.footer-link{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+footer img {
+  width: 100px;
+}
+
+footer i {
+  margin: 0 0.5em;
+  font-size: 1.5em;
+
+}
+/*==========media qerries for mobile==========*/
+@media screen and (max-width: 480px) {
+  /* Layout constraint */
+  body {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* NAVIGATION */
+  nav {
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  nav img {
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    display: none; /* Initially hidden — for hamburger toggle */
+  }
+
+  nav ul li {
+    justify-content: center;
+  }
+
+  /* hamburgur menu */
+   nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #071629bd;
+    width: 100%;
+    padding: 1rem 0;
+    position: absolute;
+    top: 60px; /* below nav bar */
+    left: 0;
+    z-index: 99;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .hamburger-icon {
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    padding-right: 20px;
+  }
+
+  /* Optional: adjust nav layout */
+  nav {
+    position: relative;
+  }
+
+
+    /* On desktop, always show menu and hide hamburger */
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav ul {
+    display: flex !important;
+  }
+
+  /* hamburger menu end */
+   header {
+    height: auto;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  /* HERO SECTION */
+
+ 
+
+  .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero h4 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+
+  .hero button {
+    margin-top: 1rem;
+  }
+
+  /* ABOUT SECTION */
+  .our-list {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .lst {
+    padding: 1rem;
+  }
+
+  /* RESULTS SECTION */
+  .result {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .result h3 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .result p {
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  .pentagone-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pen-item {
+    margin: 1rem 0;
+  }
+
+  /* CONTACT FORM */
+  .contact-container {
+    width: 100%;
+  }
+
+  form {
+    margin: 0;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .control-form {
+    width: 100%;
+  }
+ .btn {
+    display: inline-block;
+    margin: 40px 0 0 0;  /* Top margin only */
+    text-align: left;
+    align-self: flex-start; /* Aligns to left in flex container */
+  }
+
+
+  /* FOOTER */
+  .footer-link {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  footer img {
+    margin-bottom: 1rem;
+  }
+
+  footer i {
+    font-size: 1.2rem;
+  }
+
+  .footer-nav p {
+    margin-top: 1rem;
+  }
+
+  /* INTERACTION STYLES */
+  .nav-link:hover,
+  .nav-link:active {
+    color: #FF6565;
+  }
+
+  .hero button:hover,
+  .hero button:active,
+  .btn:hover,
+  .btn:active {
+    opacity: 0.9;
+  }
+
+  /* Constrain content */
+  main,
+  header,
+  footer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+/*==========media qerries for tablet==========*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Body max width */
+  body {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* NAV */
+  nav {
+    padding: 0.5rem 1rem;
+    margin: 0;
+  }
+
+  nav img {
+    padding-left: 0;
+    height: 1.8rem;
+  }
+
+  nav ul {
+    gap: 1rem;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    position: static;
+    transform: none;
+    padding: 4rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h4 {
+    font-size: 1.1rem;
+  }
+
+  .hero p {
+    padding-top: 2rem;
+    font-size: 1rem;
+  }
+
+  /* ABOUT SECTION */
+  .our-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .lst {
+    width: 45%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+
+  /* RESULTS SECTION */
+  .result {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .pentagone-item {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .pen-item {
+    width: 45%;
+    margin-bottom: 1rem;
+  }
+
+  .rslt-container h4 {
+    font-size: 3rem;
+  }
+
+  /* CONTACT SECTION */
+  form {
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .control-form {
+    width: 90%;
+  }
+
+  /* FOOTER */
+  .footer-link {
+    padding: 0 1rem;
+  }
+
+  footer img {
+    width: 90px;
+  }
+
+  .footer-nav p {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+  }
+
+  footer i {
+    font-size: 1.3rem;
+  }
+
+  /* Interactions */
+  .nav-link:hover,
+  .nav-link:active {
+    color: #FF6565;
+  }
+
+  .hero button:hover,
+  .hero button:active,
+  .btn:hover,
+  .btn:active {
+    opacity: 0.9;
+  }
+
+  main,
+  header,
+  footer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
